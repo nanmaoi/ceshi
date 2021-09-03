@@ -1,0 +1,32 @@
+#访问端口
+server:
+  port: 8012
+#  servlet:
+#    context-path: /dome1
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/boot?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT
+    type: com.alibaba.druid.pool.DruidDataSource
+  thymeleaf:
+    # 开启模板缓存（默认值： true ）
+    cache: true
+    # 检查模板是否存在，然后再呈现
+    check-template: true
+    content-type: text/html
+      # 开启 MVC Thymeleaf 视图解析（默认值： true ）
+    enabled: true
+    encoding: UTF-8
+#    mode: HTML
+#    prefix: classpath:/templates/
+#    suffix: .html
+
+mybatis:
+#  实体
+  type-aliases-package: com.boot.pojo
+  mapper-locations: classpath:/com/boot/mapper/*Mapper.xml
+  #开启驼峰命名
+  configuration:
+    map-underscore-to-camel-case: true

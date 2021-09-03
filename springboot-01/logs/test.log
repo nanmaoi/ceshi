@@ -1,0 +1,10 @@
+2021-06-29 16:51:27.366 [restartedMain] INFO  com.boot.Springboot01Application - Starting Springboot01Application on LAPTOP-4E4IDK54 with PID 28828 (E:\ideahoukai\demo\springboot-01\target\classes started by houkai in E:\ideahoukai\demo\springboot-01)
+2021-06-29 16:51:27.372 [restartedMain] INFO  com.boot.Springboot01Application - No active profile set, falling back to default profiles: default
+2021-06-29 16:51:28.388 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8012"]
+2021-06-29 16:51:28.388 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-29 16:51:28.388 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-06-29 16:51:28.507 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-29 16:51:29.061 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8012"]
+2021-06-29 16:51:29.090 [restartedMain] INFO  com.boot.Springboot01Application - Started Springboot01Application in 2.273 seconds (JVM running for 3.857)
+2021-06-29 16:51:37.469 [http-nio-8012-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-29 16:55:13.692 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
